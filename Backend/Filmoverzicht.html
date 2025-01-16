@@ -1,27 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Basisinformatie voor de pagina -->
-    <meta charset="UTF-8"> <!-- Tekenset instellen -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsieve weergave -->
-    <title>Filmoverzicht Beheer</title> <!-- Titel van de pagina -->
-    <link rel="stylesheet" href="Filmoverzicht.css"> <!-- Koppeling naar CSS-bestand -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmoverzicht Beheer</title>
+    <link rel="stylesheet" href="Filmoverzicht.css">
 </head>
 <body>
     <header>
-        <!-- Header met titel -->
         <h1>Filmoverzicht Beheer</h1>
     </header>
     <main>
-        <!-- Zoekbalk en knop om films toe te voegen -->
         <div class="search-bar">
-            <input type="text" placeholder="Zoek een film..." id="search"> <!-- Zoekinvoerveld -->
-            <button onclick="filterFilms()">Zoek</button> <!-- Zoekknop -->
-            <a href="Filmbeheer.html" class="button">Film Toevoegen</a> <!-- Link om een nieuwe film toe te voegen -->
+            <input type="text" placeholder="Zoek een film..." id="search">
+            <button onclick="filterFilms()">Zoek</button>
+            <a href="Filmbeheer.html" class="button">Film Toevoegen</a>
         </div>
-
         <div class="film-table">
-            <!-- Begin van tabellen met filmoverzichten -->
             <table>
                 <thead>
                     <tr>
@@ -43,7 +38,6 @@
                     </tr>
                 </tbody>
             </table>
-            <!-- Herhaling van bovenstaande structuur voor andere films -->
             <table>
                 <thead>
                     <tr>
@@ -65,15 +59,179 @@
                     </tr>
                 </tbody>
             </table>
-            <!-- Andere film tabellen -->
-            <!-- Alle tabellen volgen hetzelfde patroon: een rij met de titel, genre, jaar en acties -->
-            <!-- Filmgegevens worden herhaald voor verschillende films -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Titel</th>
+                        <th>Genre</th>
+                        <th>Jaar</th>
+                        <th>Acties</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Revengers</td>
+                        <td>Actie, Science Fiction</td>
+                        <td>2012</td>
+                        <td>
+                            <a href="Filmbeheer.html" class="button">Bewerken</a>
+                            <button class="button">Verwijderen</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Titel</th>
+                        <th>Genre</th>
+                        <th>Jaar</th>
+                        <th>Acties</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mamabelle</td>
+                        <td>Horror</td>
+                        <td>2014</td>
+                        <td>
+                            <a href="Filmbeheer.html" class="button">Bewerken</a>
+                            <button class="button">Verwijderen</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Titel</th>
+                        <th>Genre</th>
+                        <th>Jaar</th>
+                        <th>Acties</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Blauweman</td>
+                        <td>Science Fiction, Avontuur</td>
+                        <td>2009</td>
+                        <td>
+                            <a href="Filmbeheer.html" class="button">Bewerken</a>
+                            <button class="button">Verwijderen</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Titel</th>
+                        <th>Genre</th>
+                        <th>Jaar</th>
+                        <th>Acties</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>prehistoriepark</td>
+                        <td>Science Fiction, Avontuur</td>
+                        <td>1993</td>
+                        <td>
+                            <a href="Filmbeheer.html" class="button">Bewerken</a>
+                            <button class="button">Verwijderen</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Titel</th>
+                        <th>Genre</th>
+                        <th>Jaar</th>
+                        <th>Acties</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>jumanopoly</td>
+                        <td>Science Fiction, Avontuur, Familiefilm</td>
+                        <td>2017</td>
+                        <td>
+                            <a href="Filmbeheer.html" class="button">Bewerken</a>
+                            <button class="button">Verwijderen</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Titel</th>
+                        <th>Genre</th>
+                        <th>Jaar</th>
+                        <th>Acties</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Morbit</td>
+                        <td>komedie</td>
+                        <td>2007</td>
+                        <td>
+                            <a href="Filmbeheer.html" class="button">Bewerken</a>
+                            <button class="button">Verwijderen</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Titel</th>
+                        <th>Genre</th>
+                        <th>Jaar</th>
+                        <th>Acties</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>They Don't like us</td>
+                        <td>Horror, Mystery</td>
+                        <td>2019</td>
+                        <td>
+                            <a href="Filmbeheer.html" class="button">Bewerken</a>
+                            <button class="button">Verwijderen</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Titel</th>
+                        <th>Genre</th>
+                        <th>Jaar</th>
+                        <th>Acties</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rio de janeiro /td>
+                        <td>Kinderfilm, Familiefilm, Animatie</td>
+                        <td>2011</td>
+                        <td>
+                            <a href="Filmbeheer.html" class="button">Bewerken</a>
+                            <button class="button">Verwijderen</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </main>
     <footer>
-        <!-- Voettekst met copyrightinformatie -->
         &copy; 2023 Filmoverzicht Beheer
     </footer>
-    <script src="filmoverzicht.js"></script> <!-- Koppeling naar JavaScript-bestand -->
+    <script src="filmoverzicht.js"></script>
 </body>
 </html>
