@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f9;
+    background-color: #f9f9f9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,18 +8,18 @@ body {
     margin: 0;
 }
 
-.login-container {
+.form-container {
     background-color: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
+    width: 400px;
 }
 
 h1 {
-    font-size: 1.8em;
+    font-size: 1.5em;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 label {
@@ -49,4 +49,3 @@ button {
 button:hover {
     background-color: #0056b3;
 }
-

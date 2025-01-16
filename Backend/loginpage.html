@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Filmbeheer</title>
-    <link rel="stylesheet" href="login.css">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="Loginpage.css">
 </head>
 <body>
     <div class="login-container">
-        <h1>Inloggen</h1>
-        <form action="/admin/dashboard.html" method="POST">
-            <label for="username">Gebruikersnaam:</label>
+        <h1>Admin Login</h1>
+        <form action="Filmoverzicht.html" method="GET">
+            <label for="username">Gebruikersnaam</label>
             <input type="text" id="username" name="username" required>
-            <label for="password">Wachtwoord:</label>
+            <label for="password">Wachtwoord</label>
             <input type="password" id="password" name="password" required>
-            <button type="submit">Login</button>
+            <button type="submit">Inloggen</button>
         </form>
     </div>
 </body>

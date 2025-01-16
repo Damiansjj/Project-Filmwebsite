@@ -3,38 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filmoverzicht - Admin</title>
-    <link rel="stylesheet" href="filmoverzicht.css">
+    <title>Filmoverzicht Beheer</title>
+    <link rel="stylesheet" href="Filmoverzicht.css">
 </head>
 <body>
     <header>
-        <h1>Filmoverzicht</h1>
+        <h1>Filmoverzicht Beheer</h1>
     </header>
     <main>
-        <div class="search-container">
-            <input type="text" id="search" placeholder="Zoek een film...">
+        <div class="search-bar">
+            <input type="text" placeholder="Zoek een film..." id="search">
+            <button onclick="filterFilms()">Zoek</button>
+            <a href="Filmbeheer.html" class="button">Film Toevoegen</a>
         </div>
-        <table>
-            <thead>
-                <tr>
-                    <th>Titel</th>
-                    <th>Regisseur</th>
-                    <th>Genre</th>
-                    <th>Acties</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Film 1</td>
-                    <td>John Doe</td>
-                    <td>Actie</td>
-                    <td>
-                        <button>Bewerken</button>
-                        <button>Verwijderen</button>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="film-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Titel</th>
+                        <th>Genre</th>
+                        <th>Jaar</th>
+                        <th>Acties</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Voorbeeldfilm</td>
+                        <td>Actie</td>
+                        <td>2023</td>
+                        <td>
+                            <a href="Filmbeheer.html" class="button">Bewerken</a>
+                            <button class="button">Verwijderen</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </main>
+    <footer>
+        &copy; 2023 Filmoverzicht Beheer
+    </footer>
+    <script src="filmoverzicht.js"></script>
 </body>
 </html>

@@ -2,58 +2,82 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #eef2f3;
+    color: #333;
 }
 
 header {
-    background-color: #333;
-    color: white;
-    padding: 1rem 0;
+    background-color: #88bdbc;
+    color: #ffffff;
+    padding: 1.5rem 0;
     text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    border-bottom: 4px solid #508991;
 }
 
 nav {
     display: flex;
     justify-content: center;
-    background: #555;
-    padding: 0.5rem;
+    background: #508991;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 nav a {
-    color: white;
+    color: #eef2f3;
     text-decoration: none;
-    margin: 0 1rem;
+    margin: 0 1.5rem;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #d1e8e2;
 }
 
 .intro {
     text-align: center;
-    padding: 2rem;
+    padding: 2.5rem;
+    background-color: #c1d5d9;
+    border-bottom: 4px solid #88bdbc;
+    color: #444;
 }
 
 .filmgrid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1rem;
-    padding: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.5rem;
+    padding: 3rem;
+    background-color: #d1e8e2;
 }
 
 .film {
-    background: white;
-    padding: 1rem;
+    background: #ffffff;
+    padding: 1.5rem;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.film:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .film img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
+    margin-bottom: 1rem;
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #508991;
+    color: #eef2f3;
     text-align: center;
-    padding: 1rem 0;
-    margin-top: 2rem;
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+    border-top: 4px solid #88bdbc;
 }
