@@ -64,6 +64,7 @@ nav a:hover {
 .film:hover {
     transform: translateY(-10px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
 }
 
 .film img {
@@ -71,6 +72,20 @@ nav a:hover {
     height: auto;
     border-radius: 8px;
     margin-bottom: 1rem;
+}
+
+.film a {
+    font-size: 1.5rem;
+    color: #4A90E2;
+    margin-bottom: 0.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    transition: color 0.3s, transform 0.3s;
+    text-decoration: none;
+}
+.film a:hover {
+    color: #508991;
+    transform: scale(1.05);
+    background-color: rgba(0,255,255,0.5)
 }
 
 footer {
