@@ -1,98 +1,98 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #eef2f3;
-    color: #333;
+    font-family: Arial, sans-serif; /* Standaard lettertype voor de hele pagina */
+    margin: 0; /* Verwijdert standaard marges van de browser */
+    padding: 0; /* Verwijdert standaard padding van de browser */
+    background-color: #eef2f3; /* Instellen van een lichte achtergrondkleur */
+    color: #333; /* Tekstkleur instellen */
 }
 
 header {
-    background-color: #88bdbc;
-    color: #ffffff;
-    padding: 1.5rem 0;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
-    border-bottom: 4px solid #508991;
+    background-color: #88bdbc; /* Achtergrondkleur van de header */
+    color: #ffffff; /* Tekstkleur van de header */
+    padding: 1.5rem 0; /* Verticale padding voor de header */
+    text-align: center; /* Tekst in het midden plaatsen */
+    font-size: 2rem; /* Lettergrootte van de titel */
+    font-weight: bold; /* Tekst vetgedrukt maken */
+    border-bottom: 4px solid #508991; /* Onderlijn toevoegen aan de header */
 }
 
 nav {
-    display: flex;
-    justify-content: center;
-    background: #508991;
-    padding: 1rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex; /* Flexbox gebruiken voor uitlijning */
+    justify-content: center; /* Links centreren */
+    background: #508991; /* Achtergrondkleur van de navigatiebalk */
+    padding: 1rem; /* Ruimte toevoegen binnen de navigatiebalk */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Schaduw toevoegen voor diepte */
 }
 
 nav a {
-    color: #eef2f3;
-    text-decoration: none;
-    margin: 0 1.5rem;
-    font-size: 1.2rem;
-    transition: color 0.3s;
+    color: #eef2f3; /* Kleur van de links in de navigatie */
+    text-decoration: none; /* Onderlijnen verwijderen */
+    margin: 0 1.5rem; /* Ruimte tussen links */
+    font-size: 1.2rem; /* Lettergrootte van de links */
+    transition: color 0.3s; /* Zachte overgang voor kleurverandering */
 }
 
 nav a:hover {
-    color: #d1e8e2;
+    color: #d1e8e2; /* Kleurverandering bij hover */
 }
 
 .intro {
-    text-align: center;
-    padding: 2.5rem;
-    background-color: #c1d5d9;
-    border-bottom: 4px solid #88bdbc;
-    color: #444;
+    text-align: center; /* Tekst centreren */
+    padding: 2.5rem; /* Ruimte rondom de tekst */
+    background-color: #c1d5d9; /* Achtergrondkleur van de introsectie */
+    border-bottom: 4px solid #88bdbc; /* Onderlijn toevoegen */
+    color: #444; /* Tekstkleur */
 }
 
 .filmgrid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 1.5rem;
-    padding: 3rem;
-    background-color: #d1e8e2;
+    display: grid; /* Gridlayout gebruiken */
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Dynamische kolommen */
+    gap: 1.5rem; /* Ruimte tussen de grid-items */
+    padding: 3rem; /* Ruimte rondom de grid */
+    background-color: #d1e8e2; /* Achtergrondkleur van de gridsectie */
 }
 
 .film {
-    background: #ffffff;
-    padding: 1.5rem;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    transition: transform 0.3s, box-shadow 0.3s;
+    background: #ffffff; /* Achtergrondkleur van elke filmkaart */
+    padding: 1.5rem; /* Ruimte binnen elke filmkaart */
+    text-align: center; /* Tekst en inhoud centreren */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Zachte schaduw toevoegen */
+    border-radius: 10px; /* Hoeken afronden */
+    transition: transform 0.3s, box-shadow 0.3s; /* Overgangen toevoegen voor bewegingseffecten */
 }
 
 .film:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    
+    transform: translateY(-10px); /* Filmkaart omhoog bewegen bij hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Schaduw versterken bij hover */
 }
 
 .film img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 1rem;
+    max-width: 100%; /* Afbeelding schaalt met de breedte van de kaart */
+    height: auto; /* Hoogte wordt automatisch berekend */
+    border-radius: 8px; /* Afbeelding krijgt afgeronde hoeken */
+    margin-bottom: 1rem; /* Ruimte onder de afbeelding */
 }
 
 .film a {
-    font-size: 1.5rem;
-    color: #4A90E2;
-    margin-bottom: 0.5rem;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-    transition: color 0.3s, transform 0.3s;
-    text-decoration: none;
+    font-size: 1.5rem; /* Lettergrootte van de filmlinks */
+    color: #4A90E2; /* Kleur van de filmlinks */
+    margin-bottom: 0.5rem; /* Ruimte onder de tekst */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Schaduw aan de tekst toevoegen */
+    transition: color 0.3s, transform 0.3s; /* Overgangen toevoegen aan kleur en schaal */
+    text-decoration: none; /* Geen onderlijning */
 }
+
 .film a:hover {
-    color: #508991;
-    transform: scale(1.05);
-    background-color: rgba(0,255,255,0.5)
+    color: #508991; /* Kleur veranderen bij hover */
+    transform: scale(1.05); /* Links vergroten bij hover */
+    background-color: rgba(0,255,255,0.5); /* Lichte achtergrondkleur bij hover */
 }
 
 footer {
-    background-color: #508991;
-    color: #eef2f3;
-    text-align: center;
-    padding: 1.5rem 0;
-    margin-top: 3rem;
-    border-top: 4px solid #88bdbc;
+    background-color: #508991; /* Achtergrondkleur van de footer */
+    color: #eef2f3; /* Tekstkleur van de footer */
+    text-align: center; /* Tekst in het midden */
+    padding: 1.5rem 0; /* Verticale padding in de footer */
+    margin-top: 3rem; /* Ruimte boven de footer */
+    border-top: 4px solid #88bdbc; /* Bovenlijn toevoegen aan de footer */
 }

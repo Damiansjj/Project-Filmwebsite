@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Film Toevoegen/Wijzigen</title>
-    <link rel="stylesheet" href="filmbeheer.css">
+    <!-- Basisinstellingen voor de HTML-pagina -->
+    <meta charset="UTF-8"> <!-- Tekenset instellen -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Zorgt voor responsieve weergave -->
+    <title>Film Toevoegen/Wijzigen</title> <!-- Titel van de pagina -->
+    <link rel="stylesheet" href="filmbeheer.css"> <!-- Koppeling naar het CSS-bestand -->
 </head>
 <body>
     <div class="form-container">
+        <!-- Titel van de pagina -->
         <h1>Film Toevoegen/Wijzigen</h1>
+        <!-- Formulier voor het toevoegen of wijzigen van films -->
         <form action="Filmoverzicht.html" method="POST">
+            <!-- Veld voor de titel van de film -->
             <label for="title">Titel</label>
             <input type="text" id="title" name="title" required>
+
+            <!-- Veld voor het genre van de film -->
             <label for="genre">Genre</label>
             <input type="text" id="genre" name="genre" required>
+
+            <!-- Veld voor het jaar van de film -->
             <label for="year">Jaar</label>
             <input type="number" id="year" name="year" required>
+
+            <!-- Knop om het formulier op te slaan -->
             <button type="submit">Opslaan</button>
         </form>
+        <!-- Link om terug te gaan naar het filmoverzicht -->
         <a href="Filmoverzicht.html" class="button">Terug naar Overzicht</a>
     </div>
 </body>

@@ -1,52 +1,57 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+    font-family: 'Roboto', sans-serif; /* Instellen van het standaard lettertype */
+    background-color: #f4f4f9; /* Lichtgrijze achtergrondkleur voor een rustige uitstraling */
+    display: flex; /* Flexbox gebruiken voor layout */
+    justify-content: center; /* Inhoud horizontaal centreren */
+    align-items: center; /* Inhoud verticaal centreren */
+    height: 100vh; /* Volledige schermhoogte */
+    margin: 0; /* Standaard marges verwijderen */
 }
 
 .login-container {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
+    background-color: white; /* Witte achtergrond voor de login-container */
+    padding: 30px 20px; /* Ruimte binnen de container */
+    border-radius: 12px; /* Afronden van de hoeken voor een zachter uiterlijk */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Zachte schaduw voor diepte-effect */
+    width: 90%; /* Breedte ingesteld op 90% van de container */
+    max-width: 350px; /* Maximale breedte om consistent te blijven */
+    text-align: center; /* Tekst in het midden uitlijnen */
+    display: flex; /* Flexbox gebruiken binnen de container */
+    flex-direction: column; /* Kinderen verticaal uitlijnen */
+    align-items: center; /* Kinderen horizontaal centreren */
 }
 
 h1 {
-    font-size: 1.8em;
-    margin-bottom: 20px;
+    font-size: 1.8em; /* Grotere lettergrootte voor de titel */
+    margin-bottom: 20px; /* Ruimte onder de titel */
 }
 
 label {
-    display: block;
-    margin: 10px 0 5px;
+    display: block; /* Labels worden op een nieuwe regel weergegeven */
+    margin: 10px 0 5px; /* Ruimte rondom het label voor consistentie */
+    text-align: left; /* Labels blijven links uitgelijnd */
+    width: 90%; /* Breedte aangepast om consistent te zijn met invoervelden */
 }
 
 input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    width: 90%; /* Breedte van invoervelden ingesteld op 90% */
+    padding: 10px; /* Binnenruimte van de invoervelden */
+    margin-bottom: 15px; /* Ruimte onder elk invoerveld */
+    border: 1px solid #ddd; /* Dunne grijze rand rondom de invoervelden */
+    border-radius: 5px; /* Afronden van de hoeken */
 }
 
 button {
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 1em;
-    cursor: pointer;
+    width: 90%; /* Knoppen consistent met invoervelden */
+    padding: 10px; /* Binnenruimte van de knop */
+    background-color: #007bff; /* Blauwe achtergrondkleur */
+    color: white; /* Witte tekstkleur */
+    border: none; /* Geen rand voor de knop */
+    border-radius: 5px; /* Afronden van de hoeken */
+    font-size: 1em; /* Standaard lettergrootte */
+    cursor: pointer; /* Wijzer wordt een pointer bij hover */
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Donkerdere blauw bij hover */
 }
-

@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filmoverzicht Beheer</title>
-    <link rel="stylesheet" href="Filmoverzicht.css">
+    <!-- Basisinformatie voor de pagina -->
+    <meta charset="UTF-8"> <!-- Tekenset instellen -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsieve weergave -->
+    <title>Filmoverzicht Beheer</title> <!-- Titel van de pagina -->
+    <link rel="stylesheet" href="Filmoverzicht.css"> <!-- Koppeling naar CSS-bestand -->
 </head>
 <body>
     <header>
+        <!-- Header met titel -->
         <h1>Filmoverzicht Beheer</h1>
     </header>
     <main>
+        <!-- Zoekbalk en knop om films toe te voegen -->
         <div class="search-bar">
-            <input type="text" placeholder="Zoek een film..." id="search">
-            <button onclick="filterFilms()">Zoek</button>
-            <a href="Filmbeheer.html" class="button">Film Toevoegen</a>
+            <input type="text" placeholder="Zoek een film..." id="search"> <!-- Zoekinvoerveld -->
+            <button onclick="filterFilms()">Zoek</button> <!-- Zoekknop -->
+            <a href="Filmbeheer.html" class="button">Film Toevoegen</a> <!-- Link om een nieuwe film toe te voegen -->
         </div>
+
         <div class="film-table">
+            <!-- Begin van tabellen met filmoverzichten -->
             <table>
                 <thead>
                     <tr>
@@ -28,9 +33,9 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Voorbeeldfilm</td>
+                        <td>Spinnendeman</td>
                         <td>Actie</td>
-                        <td>2023</td>
+                        <td>2002</td>
                         <td>
                             <a href="Filmbeheer.html" class="button">Bewerken</a>
                             <button class="button">Verwijderen</button>
@@ -38,11 +43,37 @@
                     </tr>
                 </tbody>
             </table>
+            <!-- Herhaling van bovenstaande structuur voor andere films -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Titel</th>
+                        <th>Genre</th>
+                        <th>Jaar</th>
+                        <th>Acties</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ijsboot</td>
+                        <td>Romantiek, Drama</td>
+                        <td>1996</td>
+                        <td>
+                            <a href="Filmbeheer.html" class="button">Bewerken</a>
+                            <button class="button">Verwijderen</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- Andere film tabellen -->
+            <!-- Alle tabellen volgen hetzelfde patroon: een rij met de titel, genre, jaar en acties -->
+            <!-- Filmgegevens worden herhaald voor verschillende films -->
         </div>
     </main>
     <footer>
+        <!-- Voettekst met copyrightinformatie -->
         &copy; 2023 Filmoverzicht Beheer
     </footer>
-    <script src="filmoverzicht.js"></script>
+    <script src="filmoverzicht.js"></script> <!-- Koppeling naar JavaScript-bestand -->
 </body>
 </html>

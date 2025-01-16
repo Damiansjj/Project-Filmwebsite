@@ -1,166 +1,166 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9fb;
-    color: #333;
+    font-family: 'Roboto', sans-serif; /* Standaard lettertype voor de hele pagina */
+    margin: 0; /* Verwijdert standaard marges van de browser */
+    padding: 0; /* Verwijdert standaard padding van de browser */
+    background-color: #f9f9fb; /* Lichtgrijze achtergrondkleur */
+    color: #333; /* Standaard tekstkleur */
 }
 
 header {
-    background-color: #3f51b5;
-    color: #fff;
-    padding: 15px 20px;
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #3f51b5; /* Blauwe achtergrondkleur voor de header */
+    color: #fff; /* Witte tekstkleur */
+    padding: 15px 20px; /* Binnenruimte in de header */
+    text-align: center; /* Tekst in het midden van de header uitlijnen */
+    font-size: 24px; /* Grotere lettergrootte voor de titel */
+    font-weight: bold; /* Vetgedrukte tekst */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Schaduw voor een diepte-effect */
 }
 
 main {
-    padding: 20px;
-    max-width: 900px;
-    margin: 20px auto;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Binnenruimte in de hoofdsectie */
+    max-width: 900px; /* Maximale breedte van de inhoud */
+    margin: 20px auto; /* Centraal uitlijnen van de inhoud */
+    background-color: #fff; /* Witte achtergrond voor de inhoud */
+    border-radius: 10px; /* Hoeken afronden */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Schaduw voor visuele diepte */
 }
 
 .search-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-    gap: 10px;
+    display: flex; /* Flexbox gebruiken voor uitlijning */
+    justify-content: space-between; /* Ruimte tussen de elementen */
+    align-items: center; /* Elementen verticaal centreren */
+    margin-bottom: 20px; /* Ruimte onder de zoekbalk */
+    gap: 10px; /* Ruimte tussen de kinderen van de zoekbalk */
 }
 
 .search-bar input[type="text"] {
-    padding: 10px;
-    font-size: 16px;
-    width: 60%;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 10px; /* Binnenruimte in de invoervelden */
+    font-size: 16px; /* Grotere lettergrootte voor leesbaarheid */
+    width: 60%; /* Breedte van het zoekveld */
+    border: 1px solid #ccc; /* Dunne grijze rand */
+    border-radius: 5px; /* Hoeken afronden */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Schaduw binnen het veld */
 }
 
 .search-bar button {
-    padding: 10px 15px;
-    background-color: #3f51b5;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 15px; /* Binnenruimte in de knop */
+    background-color: #3f51b5; /* Blauwe achtergrondkleur */
+    color: white; /* Witte tekstkleur */
+    border: none; /* Geen rand */
+    border-radius: 5px; /* Hoeken afronden */
+    font-size: 14px; /* Lettergrootte van de tekst */
+    cursor: pointer; /* Wijzer verandert in een pointer bij hover */
+    transition: background-color 0.3s; /* Zachte overgang bij hover */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Schaduw voor een visueel effect */
 }
 
 .search-bar button:hover {
-    background-color: #2c3e9e;
+    background-color: #2c3e9e; /* Donkerdere blauw bij hover */
 }
 
 .search-bar a {
-    color: #3f51b5;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 8px 12px;
-    border: 1px solid #3f51b5;
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
+    color: #3f51b5; /* Blauwe kleur voor links */
+    text-decoration: none; /* Geen onderstreping */
+    font-weight: bold; /* Vetgedrukte tekst */
+    padding: 8px 12px; /* Binnenruimte in de link */
+    border: 1px solid #3f51b5; /* Blauwe rand */
+    border-radius: 5px; /* Hoeken afronden */
+    transition: background-color 0.3s, color 0.3s; /* Overgangseffecten voor kleur en achtergrond */
 }
 
 .search-bar a:hover {
-    background-color: #3f51b5;
-    color: white;
+    background-color: #3f51b5; /* Blauwe achtergrondkleur bij hover */
+    color: white; /* Witte tekstkleur bij hover */
 }
 
 .film-table table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-    font-size: 16px;
+    width: 100%; /* Tabel vult de volledige breedte */
+    border-collapse: collapse; /* Grenzen samenvoegen */
+    margin-top: 20px; /* Ruimte boven de tabel */
+    font-size: 16px; /* Grotere tekst in de tabel */
 }
 
 .film-table th, .film-table td {
-    padding: 15px;
-    text-align: left;
-    border: 1px solid #ddd;
+    padding: 15px; /* Binnenruimte in de cellen */
+    text-align: left; /* Tekst links uitlijnen */
+    border: 1px solid #ddd; /* Dunne grijze rand */
 }
 
 .film-table th {
-    background-color: #3f51b5;
-    color: white;
+    background-color: #3f51b5; /* Blauwe achtergrond voor de tabelkoppen */
+    color: white; /* Witte tekstkleur */
 }
 
 .film-table tr:nth-child(even) {
-    background-color: #f4f4f9;
+    background-color: #f4f4f9; /* Alternatieve rijkleur voor duidelijkheid */
 }
 
 .film-table tr:hover {
-    background-color: #e6e6f3;
+    background-color: #e6e6f3; /* Lichtblauwe kleur bij hover */
 }
 
 .film-table button {
-    padding: 8px 12px;
-    background-color: #f44336;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    padding: 8px 12px; /* Binnenruimte in de knop */
+    background-color: #f44336; /* Rode achtergrondkleur */
+    color: white; /* Witte tekstkleur */
+    border: none; /* Geen rand */
+    border-radius: 5px; /* Hoeken afronden */
+    font-size: 14px; /* Lettergrootte van de tekst */
+    cursor: pointer; /* Pointer bij hover */
+    transition: background-color 0.3s; /* Overgangseffect bij hover */
 }
 
 .film-table button:hover {
-    background-color: #d32f2f;
+    background-color: #d32f2f; /* Donkerder rood bij hover */
 }
 
 .add-film {
-    margin-top: 20px;
+    margin-top: 20px; /* Ruimte boven de sectie voor het toevoegen van films */
 }
 
 .add-film form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    background-color: #f9f9fb;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex; /* Flexbox gebruiken voor uitlijning */
+    flex-direction: column; /* Elementen verticaal stapelen */
+    gap: 15px; /* Ruimte tussen de elementen in het formulier */
+    background-color: #f9f9fb; /* Witte achtergrondkleur */
+    padding: 20px; /* Binnenruimte in het formulier */
+    border-radius: 10px; /* Hoeken afronden */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Schaduw voor diepte-effect */
 }
 
 .add-film input[type="text"],
 .add-film input[type="number"] {
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 100%;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 10px; /* Binnenruimte in de invoervelden */
+    font-size: 16px; /* Grotere tekst voor leesbaarheid */
+    border: 1px solid #ccc; /* Grijze rand */
+    border-radius: 5px; /* Hoeken afronden */
+    width: 100%; /* Volledige breedte */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Schaduw binnen het veld */
 }
 
 .add-film button {
-    padding: 10px;
-    background-color: #3f51b5;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px; /* Binnenruimte in de knop */
+    background-color: #3f51b5; /* Blauwe achtergrondkleur */
+    color: white; /* Witte tekstkleur */
+    border: none; /* Geen rand */
+    border-radius: 5px; /* Hoeken afronden */
+    font-size: 16px; /* Grotere tekst voor nadruk */
+    font-weight: bold; /* Vetgedrukte tekst */
+    cursor: pointer; /* Pointer bij hover */
+    transition: background-color 0.3s; /* Overgangseffect bij hover */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Schaduw voor diepte-effect */
 }
 
 .add-film button:hover {
-    background-color: #2c3e9e;
+    background-color: #2c3e9e; /* Donkerdere blauw bij hover */
 }
 
 footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #3f51b5;
-    color: white;
-    font-size: 14px;
-    margin-top: 20px;
-    border-radius: 0 0 10px 10px;
+    text-align: center; /* Tekst in het midden uitlijnen */
+    padding: 10px; /* Binnenruimte in de footer */
+    background-color: #3f51b5; /* Blauwe achtergrondkleur */
+    color: white; /* Witte tekstkleur */
+    font-size: 14px; /* Kleinere tekst voor de footer */
+    margin-top: 20px; /* Ruimte boven de footer */
+    border-radius: 0 0 10px 10px; /* Onderhoeken afronden */
 }

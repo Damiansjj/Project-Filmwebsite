@@ -10,10 +10,15 @@ body {
 
 .form-container {
     background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 400px;
+    padding: 30px 20px; /* Meer padding voor een uitgebalanceerd uiterlijk */
+    border-radius: 12px; /* Zachtere afgeronde hoeken */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Sterkere schaduw voor meer diepte */
+    width: 90%;
+    max-width: 400px; /* Responsieve maximale breedte */
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Zet kinderen verticaal uitgelijnd */
+    align-items: center; /* Centreert de kinderen horizontaal */
 }
 
 h1 {
@@ -22,13 +27,16 @@ h1 {
     text-align: center;
 }
 
+
 label {
     display: block;
     margin: 10px 0 5px;
+    text-align: left; /* Labels blijven links uitgelijnd */
+    width: 90%; /* Breedte consistent met invoervelden */
 }
 
 input {
-    width: 100%;
+    width: 90%; /* Breedte aangepast voor centreren */
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ddd;
@@ -36,7 +44,7 @@ input {
 }
 
 button {
-    width: 100%;
+    width: 90%; /* Knoppen consistent met invoervelden */
     padding: 10px;
     background-color: #007bff;
     color: white;
